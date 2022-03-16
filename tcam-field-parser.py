@@ -6,6 +6,7 @@ with open('inputdoc.txt', 'r') as file:
     # lines = file.readlines()
     lines = [ line.strip() for line in file ]
     unique = set(lines)
+ #   counts = Counter(file.split())
 
 # Raw output for troubleshooting
 print(lines)
